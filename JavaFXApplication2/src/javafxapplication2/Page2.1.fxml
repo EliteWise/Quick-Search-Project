@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.AmazonProducts">
+  <children>
+    <AnchorPane fx:id="ch" maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" stylesheets="@design_2.css" VBox.vgrow="ALWAYS">
+      <children>
+            <Text fill="#874401" layoutX="69.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amazon">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="main_product_name" layoutX="276.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product" wrappingWidth="103.73675537109375">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="allprices" layoutX="276.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30 - 70 €" wrappingWidth="103.73675537109375">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="combobox" layoutX="216.0" layoutY="132.0" onAction="#list" prefHeight="26.0" prefWidth="185.0" promptText="Choose your mark" />
+            <AnchorPane fx:id="paneProductName" maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <Text fx:id="pdn1" layoutX="20.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 1" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="pdn2" layoutX="20.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 2" wrappingWidth="138.936767578125">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="pdn3" layoutX="20.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 3" wrappingWidth="138.936767578125">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="pdn4" layoutX="20.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 4" wrappingWidth="138.936767578125">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            </AnchorPane>
+            <AnchorPane fx:id="panePrice" maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <Text fx:id="p1" layoutX="173.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 1" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="p2" layoutX="173.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 2" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="p3" layoutX="173.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 3" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="p4" layoutX="173.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 4" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            </AnchorPane>
+            <Text fill="#874401" layoutX="244.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quick Search">
+               <font>
+                  <Font name="Bell MT" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="#874401" layoutX="439.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cdiscount">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="pdn11" layoutX="402.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 1" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="p11" layoutX="557.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 1" wrappingWidth="54.13671875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="pdn111" layoutX="402.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 2" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="pdn1111" layoutX="402.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 3" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="p111" layoutX="557.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 2" wrappingWidth="54.13671875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="pdn11111" layoutX="402.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name 4" wrappingWidth="117.3367919921875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="p1111" layoutX="557.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 3" wrappingWidth="54.13671875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="p11111" layoutX="557.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price 4" wrappingWidth="54.13671875">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Text>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

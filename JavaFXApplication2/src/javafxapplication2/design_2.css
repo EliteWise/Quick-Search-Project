@@ -1,0 +1,25 @@
+#ch {
+     -fx-background-image: url("visual2.png");
+}
+
+.combo-box{
+    -fx-border-color:#874401;
+    -fx-border-style:solid;
+    -fx-border-width:1;
+}
+.combo-box .arrow{
+    -fx-background-color:#874401;
+    
+}
+.combo-box .arrow-button{
+    -fx-background-color:white;
+}
+
+.combo-box .list-cell:hover{
+    -fx-background-color:#F5E9DC;
+}
+
+.combo-box .list-cell{
+    -fx-background-color:white;
+    -fx-text-fill: black;
+}
